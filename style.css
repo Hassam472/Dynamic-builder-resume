@@ -17,11 +17,15 @@ body {
     text-align: center;
     color: #295F98;
   }
+  h2{
+    color: #295F98;
+  }
 
   label {
     display: block;
     margin-top: 10px;
     font-weight: bold;
+    color: #295F98;
   }
   
   input[type="text"],
