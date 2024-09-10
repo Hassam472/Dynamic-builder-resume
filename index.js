@@ -10,20 +10,29 @@ resumeForm.addEventListener('submit', (event) => {
     const company = document.getElementById('company').value;
     const skills = document.getElementById('skills').value;
     const resumeHTML = `
-    <h2>Full Name</h2>
-    <h4>${name}</h4>
+    <h1>Generated Resume</h1>
+    <hr height="20px" color="black">
+    <h2>Personal Information</h2>
+    <p><strong>Full Name:</strong> ${name}</p>
     <p><strong>Email:</strong> ${email}</p>
+    <br><br>
 
     <h2>Education</h2>
     <p><strong>Degree:</strong> ${education} at ${school}</p>
+    <br><br>
 
     <h2>Work Experience</h2>
     <p><strong>Job Title:</strong> ${jobTitle}</p>
     <p><strong>Company:</strong> ${company}</p>
+    <br><br>
 
     <h2>Skills</h2>
     <p>${skills.split(',').map(skill => skill.trim()).join(', ')}</p>
+    <br><br>
   `;
     resumeContent.innerHTML = resumeHTML;
+    if (resumeHTML) {
+        resumeForm.style.display = "none";
+    }
 });
 

@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #295F98;
     margin: 0;
     padding: 0;
   }
@@ -9,14 +9,15 @@ body {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #E1D7C6;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   h1 {
     text-align: center;
+    color: #295F98;
   }
-  
+
   label {
     display: block;
     margin-top: 10px;
@@ -29,7 +30,7 @@ body {
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #295F98;
     border-radius: 4px;
   }
   
@@ -44,7 +45,7 @@ body {
   }
   
   button:hover {
-    background-color: #218838;
+    background-color: #295F98;
   }
   
   #resume {
@@ -54,7 +55,7 @@ body {
   #resumeContent {
     text-align: left;
     padding: 20px;
-    border: 1px solid #ddd;
-    background-color: grey;
-    color: whitesmoke;
+    border: 3px solid #295F98;
+    background-color: #CDC2A5;
+    color: black;
   }
